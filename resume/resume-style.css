@@ -1,0 +1,32 @@
+.top {
+    display: flex;
+
+border: 2px solid rgb(248, 248, 248);
+}
+.titlese {border: 2px solid rgba(255, 254, 255, 0);
+
+}
+.name {border:2px solid rgb(232, 235, 232)}
+
+.bottom {
+   display: flex; 
+}
+.sidebar { display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(110deg, rgb(72, 59, 253) 60%, rgb(75, 87, 255) 60%); 
+    
+}
+.title {
+    border-bottom: 1px solid gray;
+}
+.firsthr {
+    width: 95%;
+}
+body {
+    background: #f8f8ff;
+}
+h1 {
+    font-size: 70;
+}
