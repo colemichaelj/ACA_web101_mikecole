@@ -18,6 +18,9 @@ border: 2px solid rgb(248, 248, 248);
     background: linear-gradient(110deg, rgb(72, 59, 253) 60%, rgb(75, 87, 255) 60%); 
     
 }
+.Prof{
+    margin: 14
+}
 .title {
     border-bottom: 1px solid gray;
 }
@@ -30,6 +33,13 @@ body {
 h1 {
     font-size: 70;
 }
-@media (mininum width 600px) {
+@media (max-width: 600px) {
+    h1 {
+        color: blue;
 
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
 }
